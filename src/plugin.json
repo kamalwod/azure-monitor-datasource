@@ -31,7 +31,7 @@
     {
       "path": "azuremonitor",
       "method": "GET",
-      "url": "https://management.azure.com",
+      "url": "https://management.usgovcloudapi.net/",
       "tokenAuth": {
         "url": "https://login.microsoftonline.com/{{.JsonData.tenantId}}/oauth2/token",
         "params": {
